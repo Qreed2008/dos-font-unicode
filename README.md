@@ -1,2 +1,6 @@
 # dos-font-unicode
 Unicode extensions of IBM VGA 8x16 and DOS/V 16px
+
+## Why these two?
+* DOS/V 16px: I like how the half-width Latin looks in particular, and the chars I've gotten so far cover sections of CJK, which means they won't be custom like with IBM VGA. It's also thinner, so it may be easier to make custom chars for. Also, I've given my complete dumps of the double-width chars here, which I got from using [DBCSView](https://github.com/akmed772/dbcsview) on VMs of both [DOS/V J5.02](https://betawiki.net/wiki/IBM_DOS_J5.02/V) and [OS/2 H2.1 Beta](https://betawiki.net/wiki/OS/2_2.1_build_6.514_H2.1_(Beta)) (which has an emulator type thing (or at least that's my understanding) for DOS/K, DOS/V, regular DOS, and Windows).
+* IBM VGA 8x16: I thought of this because I knew there were some extra scripts that it covered compared to DOS/V. Technically, the font in [IBM PC DOS H6.30](https://betawiki.net/wiki/IBM_PC_DOS_H6.30) and [H7.0](https://betawiki.net/wiki/IBM_PC_DOS_H7.0) are the 9x16 forms, but they are in 8x16 tiles (16x16 for the Hangul). Anyways, between it having a Korean form and the extra forms present in the [PxPlus remake](https://int10h.org/oldschool-pc-fonts/fontlist/font?ibm_vga_8x16), this seemed like it would also be good to extend.
